@@ -1,0 +1,20 @@
+# One entry per paper or talk. They appear on the homepage, newest first.
+# "path" is where the title links to; "description" is the journal or venue.
+
+- title: "Title of your most recent paper"
+  date: 2026-09-01
+  description: "Journal Name"
+  path: https://doi.org/10.0000/example
+  categories: [Paper]
+
+- title: "Title of a talk you gave"
+  date: 2026-04-15
+  description: "Conference Name, City"
+  path: https://example.com/slides
+  categories: [Talk]
+
+- title: "Title of an earlier paper"
+  date: 2025-11-01
+  description: "Another Journal"
+  path: https://doi.org/10.0000/example2
+  categories: [Paper]

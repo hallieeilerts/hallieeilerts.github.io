@@ -1,0 +1,8 @@
+---
+title: "CV"
+toc: false
+---
+
+Put a PDF of your CV in this folder (for example `cv.pdf`) and link to it:
+
+[Download my CV (PDF)](cv.pdf)

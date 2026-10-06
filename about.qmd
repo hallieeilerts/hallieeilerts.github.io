@@ -1,0 +1,12 @@
+---
+title: "About"
+toc: false
+---
+
+A longer description of you: your background, what you work on, and how to
+reach you.
+
+## Contact
+
+- Email: you@example.com
+- Office: Building, Room

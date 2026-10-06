@@ -1,0 +1,23 @@
+---
+title: "Project Structure"
+---
+
+Describe how a typical project folder should be laid out.
+
+```
+my-project/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── code/
+├── output/
+└── README.md
+```
+
+## Folders
+
+| Folder    | What goes in it                     |
+|-----------|-------------------------------------|
+| `data/`   | Raw and processed data              |
+| `code/`   | Scripts, numbered in the order run  |
+| `output/` | Figures and tables                  |

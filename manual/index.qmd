@@ -1,0 +1,16 @@
+---
+title: "Guide"
+---
+
+This is the home page of the guide. 
+
+## How this guide is organized
+
+- **Credits** – who wrote this and what it borrows from
+- **Style guide** – how we write code
+- **Project structure** – how we organize files and folders
+
+::: {.callout-note}
+This is a callout box. Use `callout-tip`, `callout-warning`, or `callout-important`
+for other styles.
+:::

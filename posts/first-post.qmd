@@ -1,0 +1,8 @@
+---
+title: "My first post"
+date: 2026-10-06
+description: "A one-line summary that shows on the homepage."
+---
+
+Write the post here. To add another post, copy this file, rename it, and change
+the title and date. It appears on the homepage automatically.

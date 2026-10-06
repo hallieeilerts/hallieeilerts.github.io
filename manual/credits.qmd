@@ -1,0 +1,8 @@
+---
+title: "Credits"
+---
+
+List the people who contributed to this manual and any sources it draws on.
+
+- Your Name
+- A collaborator

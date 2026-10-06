@@ -1,0 +1,33 @@
+---
+title: "Our Code Style Guide"
+---
+
+A short statement of why consistent style matters to your group.
+
+## Naming
+
+Use lowercase names with underscores.
+
+```r
+# Good
+clean_data <- read_csv("data/raw_data.csv")
+
+# Bad
+CleanData <- read_csv("data/raw_data.csv")
+```
+
+## Spacing
+
+Put spaces around operators and after commas.
+
+```r
+average <- mean(x, na.rm = TRUE)
+```
+
+## Comments
+
+Explain *why*, not *what*.
+
+::: {.callout-tip}
+Code blocks get a copy button automatically (set by `code-copy: true` in `_quarto.yml`).
+:::

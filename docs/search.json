@@ -1,0 +1,147 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Your Name",
+    "section": "",
+    "text": "One or two sentences about what you study and how. Keep it short; the details go on the About page. Learn more."
+  },
+  {
+    "objectID": "index.html#papers-and-posts",
+    "href": "index.html#papers-and-posts",
+    "title": "Your Name",
+    "section": "Papers and posts",
+    "text": "Papers and posts\n\n\n\n\n\nMy first post\n\n\n\n\n\n\nBlog\n\n\n\nA one-line summary that shows on the homepage.\n\n\n\n\n\nOctober 2026\n\n\n\n\n\n\n\nTitle of your most recent paper\n\n\n\n\n\n\nPaper\n\n\n\nJournal Name\n\n\n\n\n\nSeptember 2026\n\n\n\n\n\n\n\nTitle of a talk you gave\n\n\n\n\n\n\nTalk\n\n\n\nConference Name, City\n\n\n\n\n\nApril 2026\n\n\n\n\n\n\n\nTitle of an earlier paper\n\n\n\n\n\n\nPaper\n\n\n\nAnother Journal\n\n\n\n\n\nNovember 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "manual/style-guide.html",
+    "href": "manual/style-guide.html",
+    "title": "Our Code Style Guide",
+    "section": "",
+    "text": "A short statement of why consistent style matters to your group.",
+    "crumbs": [
+      "Lab Manual",
+      "Coding",
+      "Our Code Style Guide"
+    ]
+  },
+  {
+    "objectID": "manual/style-guide.html#naming",
+    "href": "manual/style-guide.html#naming",
+    "title": "Our Code Style Guide",
+    "section": "Naming",
+    "text": "Naming\nUse lowercase names with underscores.\n# Good\nclean_data &lt;- read_csv(\"data/raw_data.csv\")\n\n# Bad\nCleanData &lt;- read_csv(\"data/raw_data.csv\")",
+    "crumbs": [
+      "Lab Manual",
+      "Coding",
+      "Our Code Style Guide"
+    ]
+  },
+  {
+    "objectID": "manual/style-guide.html#spacing",
+    "href": "manual/style-guide.html#spacing",
+    "title": "Our Code Style Guide",
+    "section": "Spacing",
+    "text": "Spacing\nPut spaces around operators and after commas.\naverage &lt;- mean(x, na.rm = TRUE)",
+    "crumbs": [
+      "Lab Manual",
+      "Coding",
+      "Our Code Style Guide"
+    ]
+  },
+  {
+    "objectID": "manual/style-guide.html#comments",
+    "href": "manual/style-guide.html#comments",
+    "title": "Our Code Style Guide",
+    "section": "Comments",
+    "text": "Comments\nExplain why, not what.\n\n\n\n\n\n\nTip\n\n\n\nCode blocks get a copy button automatically (set by code-copy: true in _quarto.yml).",
+    "crumbs": [
+      "Lab Manual",
+      "Coding",
+      "Our Code Style Guide"
+    ]
+  },
+  {
+    "objectID": "manual/index.html",
+    "href": "manual/index.html",
+    "title": "Lab Manual",
+    "section": "",
+    "text": "This is the home page of the manual. Replace this text with a short introduction: who the manual is for, what it covers, and how to use it.",
+    "crumbs": [
+      "Lab Manual"
+    ]
+  },
+  {
+    "objectID": "manual/index.html#how-this-manual-is-organized",
+    "href": "manual/index.html#how-this-manual-is-organized",
+    "title": "Lab Manual",
+    "section": "How this manual is organized",
+    "text": "How this manual is organized\n\nCredits – who wrote this and what it borrows from\nStyle guide – how we write code\nProject structure – how we organize files and folders\n\n\n\n\n\n\n\nNote\n\n\n\nThis is a callout box. Use callout-tip, callout-warning, or callout-important for other styles.",
+    "crumbs": [
+      "Lab Manual"
+    ]
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Put a PDF of your CV in this folder (for example cv.pdf) and link to it:\nDownload my CV (PDF)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A longer description of you: your background, what you work on, and how to reach you."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: you@example.com\nOffice: Building, Room"
+  },
+  {
+    "objectID": "manual/credits.html",
+    "href": "manual/credits.html",
+    "title": "Credits",
+    "section": "",
+    "text": "List the people who contributed to this manual and any sources it draws on.\n\nYour Name\nA collaborator",
+    "crumbs": [
+      "Lab Manual",
+      "Credits"
+    ]
+  },
+  {
+    "objectID": "manual/project-structure.html",
+    "href": "manual/project-structure.html",
+    "title": "Project Structure",
+    "section": "",
+    "text": "Describe how a typical project folder should be laid out.",
+    "crumbs": [
+      "Lab Manual",
+      "Coding",
+      "Project Structure"
+    ]
+  },
+  {
+    "objectID": "manual/project-structure.html#folders",
+    "href": "manual/project-structure.html#folders",
+    "title": "Project Structure",
+    "section": "Folders",
+    "text": "Folders\n\n\n\nFolder\nWhat goes in it\n\n\n\n\ndata/\nRaw and processed data\n\n\ncode/\nScripts, numbered in the order run\n\n\noutput/\nFigures and tables",
+    "crumbs": [
+      "Lab Manual",
+      "Coding",
+      "Project Structure"
+    ]
+  },
+  {
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "My first post",
+    "section": "",
+    "text": "Write the post here. To add another post, copy this file, rename it, and change the title and date. It appears on the homepage automatically."
+  }
+]
