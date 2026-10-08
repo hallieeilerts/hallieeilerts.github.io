@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Your Name",
+    "title": "Hallie Eilerts-Spinelli",
     "section": "",
-    "text": "One or two sentences about what you study and how. Keep it short; the details go on the About page. Learn more."
+    "text": "Assistant Scientist\n\n\nJohns Hopkins Bloomberg School of Public Health\n\n\nDepartment of International HealthGlobal Disease Epidemiology and Control Program\n\n\n\n\n\nNovember 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nMy first post\n\n\n\n\n\n\nBlog\n\n\n\nTesting my first post.\n\n\n\n\n\nOctober 2026\n\n\n\n\n\n\n\nEstimates of global causes of death for children and adolescents aged 5-19 in 2000-24: secondary data analysis using bayesian multinomial logistic regression\n\n\n\n\n\n\nPaper\n\n\n\nThe BMJ\n\n\n\n\n\nJune 2026\n\n\n\n\n\n\n\nSystematic estimates of global causes of neonatal and under 5 mortality in 2000‑24: Secondary data analysis using bayesian multinomial logistic regression\n\n\n\n\n\n\nPaper\n\n\n\nThe BMJ\n\n\n\n\n\nJune 2026\n\n\n\n\n\n\n\nHidden toll of violent deaths during pregnancy and the postpartum period: A nationwide analysis of Mexican death records\n\n\n\n\n\n\nPaper\n\n\n\nBMJ Public Health\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nPregnancy reporting and biases in under‑five mortality in three African HDSS\n\n\n\n\n\n\nPaper\n\n\n\nPopulation Studies\n\n\n\n\n\nNovember 2025\n\n\n\n\n\n\n\nAccounting for stillbirths in maternal health metrics: A cross‑country analysis\n\n\n\n\n\n\nPaper\n\n\n\neClinicalMedicine\n\n\n\n\n\nJuly 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#papers-and-posts",
     "href": "index.html#papers-and-posts",
-    "title": "Your Name",
+    "title": "Hallie Eilerts-Spinelli",
     "section": "Papers and posts",
-    "text": "Papers and posts\n\n\n\n\n\nMy first post\n\n\n\n\n\n\nBlog\n\n\n\nA one-line summary that shows on the homepage.\n\n\n\n\n\nOctober 2026\n\n\n\n\n\n\n\nTitle of your most recent paper\n\n\n\n\n\n\nPaper\n\n\n\nJournal Name\n\n\n\n\n\nSeptember 2026\n\n\n\n\n\n\n\nTitle of a talk you gave\n\n\n\n\n\n\nTalk\n\n\n\nConference Name, City\n\n\n\n\n\nApril 2026\n\n\n\n\n\n\n\nTitle of an earlier paper\n\n\n\n\n\n\nPaper\n\n\n\nAnother Journal\n\n\n\n\n\nNovember 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Papers and posts\n\n\n\n\n\nMy first post\n\n\n\n\n\n\nBlog\n\n\n\nA one-line summary that shows on the homepage.\n\n\n\n\n\nOctober 2026\n\n\n\n\n\n\n\nEstimates of global causes of death for children and adolescents aged 5-19 in 2000-24: secondary data analysis using bayesian multinomial logistic regression\n\n\n\n\n\n\nPaper\n\n\n\nThe BMJ\n\n\n\n\n\nJune 2026\n\n\n\n\n\n\n\nTitle of a talk\n\n\n\n\n\n\nTalk\n\n\n\nConference Name, City\n\n\n\n\n\nApril 2026\n\n\n\n\n\n\n\nTitle of an earlier paper\n\n\n\n\n\n\nPaper\n\n\n\nAnother Journal\n\n\n\n\n\nNovember 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "manual/style-guide.html",
@@ -64,11 +64,12 @@
   {
     "objectID": "manual/index.html",
     "href": "manual/index.html",
-    "title": "Lab Manual",
+    "title": "Guide",
     "section": "",
-    "text": "This is the home page of the manual. Replace this text with a short introduction: who the manual is for, what it covers, and how to use it.",
+    "text": "This is the home page of the guide.",
     "crumbs": [
-      "Lab Manual"
+      "Lab Manual",
+      "Guide"
     ]
   },
   {
@@ -93,14 +94,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "A longer description of you: your background, what you work on, and how to reach you."
+    "text": "I am a demographer and epidemiologist whose research focuses on improving monitoring of maternal and child health in high-burden settings."
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
     "title": "About",
     "section": "Contact",
-    "text": "Contact\n\nEmail: you@example.com\nOffice: Building, Room"
+    "text": "Contact\n\nEmail: heilert1@jh.edu"
   },
   {
     "objectID": "manual/credits.html",
@@ -142,6 +143,17 @@
     "href": "posts/first-post.html",
     "title": "My first post",
     "section": "",
-    "text": "Write the post here. To add another post, copy this file, rename it, and change the title and date. It appears on the homepage automatically."
+    "text": "Write the post here. Will appear on the homepage automatically."
+  },
+  {
+    "objectID": "manual/index.html#how-this-guide-is-organized",
+    "href": "manual/index.html#how-this-guide-is-organized",
+    "title": "Guide",
+    "section": "How this guide is organized",
+    "text": "How this guide is organized\n\nCredits – who wrote this and what it borrows from\nStyle guide – how we write code\nProject structure – how we organize files and folders\n\n\n\n\n\n\n\nNote\n\n\n\nThis is a callout box. Use callout-tip, callout-warning, or callout-important for other styles.",
+    "crumbs": [
+      "Lab Manual",
+      "Guide"
+    ]
   }
 ]

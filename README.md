@@ -1,4 +1,4 @@
-# Personal site + lab manual (Quarto)
+# Personal site + manual
 
 ## What's where
 
@@ -6,7 +6,7 @@
 - `papers.yml` – your papers and talks (one entry each)
 - `posts/` – blog posts, one `.qmd` file each
 - `about.qmd`, `cv.qmd` – the About and CV pages
-- `manual/` – the lab manual, with its own sidebar
+- `manual/` – generic manual/guide, with its own sidebar
 - `_quarto.yml` – site title, top menu, manual sidebar, footer links
 - `custom.scss` – font and colors
 

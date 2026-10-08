@@ -1,20 +1,32 @@
 # One entry per paper or talk. They appear on the homepage, newest first.
 # "path" is where the title links to; "description" is the journal or venue.
 
-- title: "Title of your most recent paper"
-  date: 2026-09-01
-  description: "Journal Name"
-  path: https://doi.org/10.0000/example
+- title: "Estimates of global causes of death for children and adolescents aged 5-19 in 2000-24: secondary data analysis using bayesian multinomial logistic regression"
+  date: 2026-06-04
+  description: "The BMJ"
+  path: https://www.bmj.com/content/393/bmj-2025-088687
   categories: [Paper]
 
-- title: "Title of a talk you gave"
-  date: 2026-04-15
-  description: "Conference Name, City"
-  path: https://example.com/slides
-  categories: [Talk]
+- title: "Systematic estimates of global causes of neonatal and under 5 mortality in 2000‑24: Secondary data analysis using bayesian multinomial logistic regression"
+  date: 2026-06-03
+  description: "The BMJ"
+  path: https://www.bmj.com/content/393/bmj-2025-088686
+  categories: [Paper]
 
-- title: "Title of an earlier paper"
-  date: 2025-11-01
-  description: "Another Journal"
-  path: https://doi.org/10.0000/example2
+- title: "Hidden toll of violent deaths during pregnancy and the postpartum period: A nationwide analysis of Mexican death records"
+  date: 2026-05-26
+  description: "BMJ Public Health"
+  path: https://doi.org/10.1136/bmjph-2025-004871
+  categories: [Paper]
+
+- title: "Pregnancy reporting and biases in under‑five mortality in three African HDSS"
+  date: 2025-11-12
+  description: "Population Studies"
+  path: https://doi.org/10.1080/00324728.2025.2573925
+  categories: [Paper]
+
+- title: "Accounting for stillbirths in maternal health metrics: A cross‑country analysis"
+  date: 2025-07-01
+  description: "eClinicalMedicine"
+  path: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00235-4/fulltext
   categories: [Paper]

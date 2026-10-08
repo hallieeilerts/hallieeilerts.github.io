@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Your Name</title>
+<title>Hallie Eilerts-Spinelli</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +69,34 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-current .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-description","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-current'] = new List('listing-current', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-timeline .list');
@@ -138,7 +166,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Your Name</span>
+    <span class="navbar-title">Hallie Eilerts-Spinelli</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -155,10 +183,6 @@ window.Quarto = {
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./manual/index.html"> 
-<span class="menu-text">Lab Manual</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -171,36 +195,43 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Paper">Paper <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Talk">Talk <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Paper">Paper <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Your Name</h1>
-<p class="subtitle lead">Your job title at Your Institution</p>
+
+
+
+<div id="listing-current" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1667275200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="" class="no-external">Assistant Scientist</a>
+</h3>
+<div class="listing-subtitle">
+<a href="" class="no-external">Johns Hopkins Bloomberg School of Public Health</a>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>One or two sentences about what you study and how. Keep it short; the details go on the About page. <a href="./about.html">Learn more</a>.</p>
-<section id="papers-and-posts" class="level2">
-<h2 class="anchored" data-anchor-id="papers-and-posts">Papers and posts</h2>
+<div class="listing-description">
+<a href="" class="no-external">Department of International Health<br>Global Disease Epidemiology and Control Program</a>
+</div>
+</div>
+<div class="metadata">
+<a href="" class="no-external">
+<div class="listing-date">
+November 2022
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <div id="listing-timeline" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Blog" data-listing-date-sort="1791259200000" data-listing-file-modified-sort="1791305739954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<div class="quarto-post image-right" data-index="0" data-categories="Blog" data-listing-date-sort="1791259200000" data-listing-file-modified-sort="1791467399686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/first-post.html" class="no-external">My first post</a>
@@ -214,7 +245,7 @@ Blog
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/first-post.html" class="no-external">A one-line summary that shows on the homepage.</a>
+<a href="./posts/first-post.html" class="no-external">Testing my first post.</a>
 </div>
 </div>
 <div class="metadata">
@@ -225,13 +256,13 @@ October 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Paper" data-listing-date-sort="1788235200000">
+<div class="quarto-post image-right" data-index="1" data-categories="Paper" data-listing-date-sort="1780545600000">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.0000/example" class="no-external">Title of your most recent paper</a>
+<a href="https://www.bmj.com/content/393/bmj-2025-088687" class="no-external">Estimates of global causes of death for children and adolescents aged 5-19 in 2000-24: secondary data analysis using bayesian multinomial logistic regression</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://doi.org/10.0000/example" class="no-external"></a>
+<a href="https://www.bmj.com/content/393/bmj-2025-088687" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Paper'); return false;">
@@ -239,49 +270,24 @@ Paper
 </div>
 </div>
 <div class="listing-description">
-<a href="https://doi.org/10.0000/example" class="no-external">Journal Name</a>
+<a href="https://www.bmj.com/content/393/bmj-2025-088687" class="no-external">The BMJ</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://doi.org/10.0000/example" class="no-external">
+<a href="https://www.bmj.com/content/393/bmj-2025-088687" class="no-external">
 <div class="listing-date">
-September 2026
+June 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Talk" data-listing-date-sort="1776225600000">
+<div class="quarto-post image-right" data-index="2" data-categories="Paper" data-listing-date-sort="1780459200000">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://example.com/slides" class="no-external">Title of a talk you gave</a>
+<a href="https://www.bmj.com/content/393/bmj-2025-088686" class="no-external">Systematic estimates of global causes of neonatal and under 5 mortality in 2000‑24: Secondary data analysis using bayesian multinomial logistic regression</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://example.com/slides" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Talk'); return false;">
-Talk
-</div>
-</div>
-<div class="listing-description">
-<a href="https://example.com/slides" class="no-external">Conference Name, City</a>
-</div>
-</div>
-<div class="metadata">
-<a href="https://example.com/slides" class="no-external">
-<div class="listing-date">
-April 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Paper" data-listing-date-sort="1761969600000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.0000/example2" class="no-external">Title of an earlier paper</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://doi.org/10.0000/example2" class="no-external"></a>
+<a href="https://www.bmj.com/content/393/bmj-2025-088686" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Paper'); return false;">
@@ -289,13 +295,88 @@ Paper
 </div>
 </div>
 <div class="listing-description">
-<a href="https://doi.org/10.0000/example2" class="no-external">Another Journal</a>
+<a href="https://www.bmj.com/content/393/bmj-2025-088686" class="no-external">The BMJ</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://doi.org/10.0000/example2" class="no-external">
+<a href="https://www.bmj.com/content/393/bmj-2025-088686" class="no-external">
+<div class="listing-date">
+June 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Paper" data-listing-date-sort="1779768000000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://doi.org/10.1136/bmjph-2025-004871" class="no-external">Hidden toll of violent deaths during pregnancy and the postpartum period: A nationwide analysis of Mexican death records</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://doi.org/10.1136/bmjph-2025-004871" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Paper'); return false;">
+Paper
+</div>
+</div>
+<div class="listing-description">
+<a href="https://doi.org/10.1136/bmjph-2025-004871" class="no-external">BMJ Public Health</a>
+</div>
+</div>
+<div class="metadata">
+<a href="https://doi.org/10.1136/bmjph-2025-004871" class="no-external">
+<div class="listing-date">
+May 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Paper" data-listing-date-sort="1762923600000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://doi.org/10.1080/00324728.2025.2573925" class="no-external">Pregnancy reporting and biases in under‑five mortality in three African HDSS</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://doi.org/10.1080/00324728.2025.2573925" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Paper'); return false;">
+Paper
+</div>
+</div>
+<div class="listing-description">
+<a href="https://doi.org/10.1080/00324728.2025.2573925" class="no-external">Population Studies</a>
+</div>
+</div>
+<div class="metadata">
+<a href="https://doi.org/10.1080/00324728.2025.2573925" class="no-external">
 <div class="listing-date">
 November 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Paper" data-listing-date-sort="1751342400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00235-4/fulltext" class="no-external">Accounting for stillbirths in maternal health metrics: A cross‑country analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00235-4/fulltext" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Paper'); return false;">
+Paper
+</div>
+</div>
+<div class="listing-description">
+<a href="https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00235-4/fulltext" class="no-external">eClinicalMedicine</a>
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00235-4/fulltext" class="no-external">
+<div class="listing-date">
+July 2025
 </div>
 </a>
 </div>
@@ -308,7 +389,6 @@ No matching items
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -740,7 +820,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Your Name</p>
+<p>© 2026 Hallie Eilerts-Spinelli</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -753,12 +833,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com">
-<p>Google Scholar</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org">
+    <a class="nav-link" href="https://orcid.org/0000-0001-8984-0548">
 <p>ORCID</p>
 </a>
   </li>  

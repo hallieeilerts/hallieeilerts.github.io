@@ -3,10 +3,8 @@ title: "About"
 toc: false
 ---
 
-A longer description of you: your background, what you work on, and how to
-reach you.
+I am a demographer and epidemiologist whose research focuses on improving monitoring of maternal and child health in high-burden settings.
 
 ## Contact
 
-- Email: you@example.com
-- Office: Building, Room
+- Email: heilert1@jh.edu

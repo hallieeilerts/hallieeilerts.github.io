@@ -3,7 +3,7 @@ project:
   output-dir: docs        # GitHub Pages publishes from this folder
 
 website:
-  title: "Your Name"
+  title: "Hallie Eilerts-Spinelli"
   # site-url: https://hallieeilerts.github.io
   search: true
   page-navigation: true   # prev/next links at the bottom of manual pages
@@ -13,33 +13,33 @@ website:
         href: about.qmd
       - text: "CV"
         href: cv.qmd
-      - text: "Lab Manual"
-        href: manual/index.qmd
-  sidebar:
-    - id: manual          # this sidebar only shows on the manual pages
-      title: "Lab Manual"
-      style: docked
-      contents:
-        - manual/index.qmd
-        - manual/credits.qmd
-        - section: "Coding"
-          contents:
-            - manual/style-guide.qmd
-            - manual/project-structure.qmd
+      #- text: "Lab Manual"
+      #  href: manual/index.qmd
+  # sidebar:
+  #   - id: manual    # this sidebar only shows on the manual pages
+  #     title: "Lab Manual"
+  #     style: docked
+  #     contents:
+  #       - manual/index.qmd
+  #       - manual/credits.qmd
+  #       - section: "Coding"
+  #         contents:
+  #           - manual/style-guide.qmd
+  #           - manual/project-structure.qmd
   page-footer:
-    left: "© 2026 Your Name"
+    left: "© 2026 Hallie Eilerts-Spinelli"
     right:
       - text: "GitHub"
         href: https://github.com/hallieeilerts
-      - text: "Google Scholar"
-        href: https://scholar.google.com
+      # - text: "Google Scholar"
+      #   href: https://scholar.google.com
       - text: "ORCID"
-        href: https://orcid.org
+        href: https://orcid.org/0000-0001-8984-0548
 
 format:
   html:
     theme:
-      - cosmo
+      - sandstone
       - custom.scss
     toc: true
     code-copy: true

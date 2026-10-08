@@ -1,26 +1,31 @@
 ---
-title: "Your Name"
-subtitle: "Your job title at Your Institution"
+title: ""
+subtitle: ""
 toc: false
 listing:
-  id: timeline
-  contents:
-    - posts          # every .qmd file in the posts folder
-    - papers.yml     # papers and talks, listed in one file
-  sort: "date desc"
-  type: default
-  fields: [date, title, description, categories]
-  date-format: "MMMM YYYY"
-  categories: true   # the filter list on the right (Paper, Blog, Talk)
-  sort-ui: false
-  filter-ui: false
-  page-size: 50
+  - id: current
+    contents: current.yml   # current job
+    type: default
+    fields: [date, title, subtitle, description]
+    date-format: "MMMM YYYY"
+    sort-ui: false
+    filter-ui: false
+  - id: timeline
+    contents:
+      - posts          # every .qmd file in the posts folder
+      - papers.yml     # papers and talks, listed in one file
+    sort: "date desc"
+    type: default
+    fields: [date, title, description, categories]
+    date-format: "MMMM YYYY"
+    categories: true   # the filter list on the right (Paper, Blog, Talk)
+    sort-ui: false
+    filter-ui: false
+    page-size: 50
 ---
 
-One or two sentences about what you study and how. Keep it short; the details
-go on the About page. [Learn more](about.qmd).
-
-## Papers and posts
+::: {#current}
+:::
 
 ::: {#timeline}
 :::

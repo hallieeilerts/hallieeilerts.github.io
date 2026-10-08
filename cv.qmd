@@ -3,6 +3,6 @@ title: "CV"
 toc: false
 ---
 
-Put a PDF of your CV in this folder (for example `cv.pdf`) and link to it:
+PDF of my CV to be put in this folder and linked:
 
 [Download my CV (PDF)](cv.pdf)
