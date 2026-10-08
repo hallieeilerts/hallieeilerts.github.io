@@ -1,10 +1,13 @@
 ---
-title: "About"
-toc: false
+title: "Hallie Eilerts-Spinelli"
+image: images/IMG-20260104-WA0025.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
 ---
-
 I am a demographer and epidemiologist whose research focuses on improving monitoring of maternal and child health in high-burden settings.
 
 ## Contact
 
-- Email: heilert1@jh.edu
+Email: heilert1@jh.edu
